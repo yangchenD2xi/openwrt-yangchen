@@ -9,7 +9,7 @@
 #
 name: build lienol openwrt
 
-on:
+on: 
   workflow_dispatch:
     inputs:
       model:
