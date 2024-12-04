@@ -28,6 +28,7 @@ git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
 git clone --depth 1 https://github.com/sbwml/luci-app-alist.git
 git clone --depth 1 https://github.com/kenzok8/small-package.git
+git clone --depth 1 https://github.com/chenmozhijin/turboacc.git
 git clone --depth 1 https://github.com/kongfl888/luci-app-timedreboot.git
 git clone --depth 1 https://github.com/yichya/luci-app-xray.git && mv luci-app-xray/core luci-app-xray-core && mv luci-app-xray/status luci-app-xray-status && rm -rf luci-app-xray
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git pw-dependencies
