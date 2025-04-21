@@ -82,6 +82,14 @@ on:
         description: '上传到artifact'
         required: false
         type: boolean
+      runs-on:
+        required: true
+        description: Runs on...
+        type: choice
+        default: ubuntu-22.04
+        options:
+          - ubuntu-20.04
+          - ubuntu-22.04
 
 permissions:
   contents: write
