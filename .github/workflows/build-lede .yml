@@ -17,6 +17,7 @@ on:
         required: true
         type: choice
         options:
+          - 'jdcloud_re-cs-07'
           - 'qihoo-c301'
           - 'phicomm-k3'
           - 'tenda-ac9'
@@ -65,7 +66,7 @@ on:
         default: '升级内容：内核升级，更新应用版本'
         type: string
       cpu_overclock:
-        description: '超频到1100Mhz'
+        description: '超频到1800Mhz'
         required: false
         type: boolean
       kernel_5_15:
