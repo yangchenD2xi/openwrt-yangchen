@@ -59,7 +59,7 @@ on:
         type: choice
         options:
           - 'openwrt-23.05'
-          - 'openwrt-24.10'
+          - 'owrt'
           - 'main'
       latest_tag:
         description: '切换到最近稳定版本(master版本无)'
