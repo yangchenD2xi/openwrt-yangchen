@@ -24,9 +24,9 @@ mv ./$CODE_DIR/* ./
 SUPPLY_DIR=_supply_packages
 echo "src-link supply $PWD/$SUPPLY_DIR" >> feeds.conf.default
 mkdir $SUPPLY_DIR && cd $SUPPLY_DIR
-git clone --depth 1 https://github.com/chenmozhijin/turboacc
-git clone --depth 1 https://github.com/chenmozhijin/turboacc;package
-git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon
-git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config
-git clone --depth 1 https://github.com/kenzok8/small-package
+git clone --depth 1 https://github.com/chenmozhijin/turboacc.git
+git clone --depth 1 --branch package https://github.com/chenmozhijin/turboacc.git
+git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
+git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
+git clone --depth 1 https://github.com/kenzok8/small-package.git
 
