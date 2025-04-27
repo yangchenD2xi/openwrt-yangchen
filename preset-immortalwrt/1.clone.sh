@@ -28,3 +28,4 @@ git clone --depth 1 https://github.com/chenmozhijin/turboacc.git
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
 git clone --depth 1 https://github.com/kenzok8/small-package.git
+git clone --depth 1 https://github.com/chenmozhijin/turboacc;package.git
